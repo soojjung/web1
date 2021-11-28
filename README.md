@@ -48,7 +48,7 @@
 <body>
     <h1>자기소개서</h1>
     <div id="grid">
-        <img src="IMG_5155.jpg" class="me"> 
+        <img src="https://soojjung.github.io/images0/IMG_5155.jpg" class="me"> 
         <ul>
             <li>이름 : 정수진</li>
             <li>생년월일 : 1995.11.25 (27세)</li>
@@ -59,8 +59,8 @@
     </div>
     <p>likes :</p>
     <img src="https://soojjung.github.io/images0/1.jpg">
-    <img src="2.jpg">
-    <img src="3.jpg">
+    <img src="https://soojjung.github.io/images0/2.jpg">
+    <img src="https://soojjung.github.io/images0/3.jpg">
 </body>
 
 </html>
