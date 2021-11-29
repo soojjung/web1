@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html>
 <head>
     <meta charset="utf-8">
@@ -13,8 +13,8 @@
             margin: 5%;}
 
         h1 {text-align: center;
-            margin-top: 5%;
-            margin-bottom: 5%; 
+            margin-top: 10%;
+            margin-bottom: 10%; 
             font-family: fantasy;
             font-size:40px}
 
@@ -30,6 +30,7 @@
             grid-template-columns: 1fr 1.5fr;
             }
         
+        #grid ul {margin-top: 5%;}
         #grid li {font-family:cursive;
             font-size: 25px;
             padding: 5px;}
@@ -37,11 +38,10 @@
         h2 {font-size: 27px;
             font-family:monospace;
             text-align: center;
-            margin-top: 10%;
-            margin-bottom: 5%;
+            margin-top: 15%;
+            margin-bottom: 15%;
             }
         
-
         #photo {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
