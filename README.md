@@ -16,7 +16,7 @@
             margin-top: 10%;
             margin-bottom: 10%; 
             font-family: fantasy;
-            font-size:40px}
+            font-size: 50px}
 
         img {width: 22%;
              margin : 5%;}
@@ -38,8 +38,8 @@
         h2 {font-size: 27px;
             font-family:monospace;
             text-align: center;
-            margin-top: 15%;
-            margin-bottom: 15%;
+            margin-top: 20%;
+            margin-bottom: 20%;
             }
         
         #photo {
