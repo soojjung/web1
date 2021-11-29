@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
 <head>
-    <title>자기소개서</title>
     <meta charset="utf-8">
+    <title>자기소개서</title>
+    
     <style>
         a { color:black;
             text-decoration: underline;
@@ -18,7 +19,7 @@
             font-size:40px}
 
         img {width: 22%;
-            margin : 5%;}
+             margin : 5%;}
 
         .me {float: left;
              margin-left: 50px ;
@@ -29,16 +30,31 @@
             grid-template-columns: 1fr 1.5fr;
             }
         
-        li {font-family:cursive;
+        #grid li {font-family:cursive;
             font-size: 25px;
             padding: 5px;}
             
-        p { font-size: 27px;
+        h2 {font-size: 27px;
             font-family:monospace;
             text-align: center;
             margin-top: 10%;
             margin-bottom: 5%;
             }
+        
+
+        #photo {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-align: center;
+        }
+
+        #photo h3 {
+            font-family:monospace;
+            font-size: 20px;
+            }
+
+        #photo img {width: 70%;}
+
     </style>
     <!-- 
         a: selector ; color,text-decoration : declaration
@@ -57,10 +73,26 @@
                 title="click me!">instragram</a> </li>
         </ul>
     </div>
-    <p>likes :</p>
-    <img src="https://soojjung.github.io/images0/1.jpg">
-    <img src="https://soojjung.github.io/images0/2.jpg">
-    <img src="https://soojjung.github.io/images0/3.jpg">
+
+    <h2>likes :</h2>
+    
+
+    <div id="photo">
+        <div >
+            <img src="https://soojjung.github.io/images0/1.jpg">
+            <h3>사진 찍기</h3>
+        </div>
+        
+        <div >
+            <img src="https://soojjung.github.io/images0/2.jpg">
+            <h3>카페 투어</h3>
+        </div>
+
+        <div >
+            <img src="https://soojjung.github.io/images0/3.jpg">
+            <h3>힙합 공연</h3>
+        </div>
+    </div>
 </body>
 
 </html>
